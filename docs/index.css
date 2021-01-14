@@ -1,0 +1,12 @@
+.login-form {
+  width: 0em;
+}
+
+.user-input label {
+  display: block;
+}
+
+.user-input input {
+  padding: 0.3em 0.5em;
+  margin: 0.3em 0;
+}
