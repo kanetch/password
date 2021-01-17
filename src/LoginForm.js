@@ -8,7 +8,7 @@ function LoginForm(props) {
     <form className='login-form'>
       <fieldset>
         <div className='user-input'>
-          <label for='id'>ID</label>
+          <label htmlFor='id'>ID</label>
           <input
             name='id'
             type='text'
@@ -17,7 +17,7 @@ function LoginForm(props) {
           ></input>
         </div>
         <div className='user-input'>
-          <label for='password'>Password</label>
+          <label htmlFor='password'>Password</label>
           <input
             name='password'
             type='password'
