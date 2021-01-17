@@ -10,6 +10,7 @@ function LoginForm(props) {
         <div className='user-input'>
           <label htmlFor='id'>ID</label>
           <input
+            id='id'
             name='id'
             type='text'
             value={id}
@@ -19,6 +20,7 @@ function LoginForm(props) {
         <div className='user-input'>
           <label htmlFor='password'>Password</label>
           <input
+            id='password'
             name='password'
             type='password'
             value={password}
