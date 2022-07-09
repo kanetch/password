@@ -6,7 +6,7 @@ function LoginForm() {
 
   return (
     <div className='flex justify-center'>
-      <form className='w-full max-w-sm px-2'>
+      <form className='w-full'>
         <div className='py-2'>
           <label>
             <span className='block text-left'>ID</span>

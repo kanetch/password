@@ -2,11 +2,13 @@ import LoginForm from './LoginForm'
 
 function App() {
   return (
-    <div className='text-center'>
-      <p className='py-2'>
+    <div className='flex flex-col items-center px-8'>
+      <div className='py-2'>
         ブラウザにパスワードを自動生成させるためのダミーページです。
-      </p>
-      <LoginForm></LoginForm>
+      </div>
+      <div className='w-full max-w-sm'>
+        <LoginForm></LoginForm>
+      </div>
     </div>
   )
 }
