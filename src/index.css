@@ -1,27 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.login-form {
-  width: 0em;
-  text-align: left;
-}
-
-.user-input label {
-  display: block;
-}
-
-.user-input input {
-  padding: 0.3em 0.5em;
-  margin: 0.3em 0;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
