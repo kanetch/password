@@ -27,6 +27,7 @@ function LoginForm() {
               className='w-full border-b-2 border-blue-300 bg-gray-100 px-2 py-2 focus:bg-white focus:outline focus:outline-2 focus:outline-offset-1 focus:outline-blue-200'
               type='password'
               name='password'
+              autoComplete='new-password'
               value={password}
               required
               onChange={e => setPassword(e.target.value)}
